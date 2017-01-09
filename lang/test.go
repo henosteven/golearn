@@ -40,4 +40,10 @@ func main() {
     a, b := swap("hello", "world")
     fmt.Println("swap: ", a, b)
     fmt.Println(split(17))
+
+    c := []int{1, 2, 3}
+    d := c
+    d[0] = 9
+    fmt.Println(c) -- 9 2 3
+    fmt.Println(d) -- 9 2 3 
 }
